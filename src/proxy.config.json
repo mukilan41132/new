@@ -1,0 +1,7 @@
+{
+    "/": {
+      "target": "http://test.boxigo.in",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  ;
+}
+
+.home,
+.reports,
+.products {
+  /* display: flex; */
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 3rem; */
+  margin-left: 19%;
+  margin-top: 18px;
+  overflow: auto;
+}
+
+
+.titleText {
+  font-size: 15px;
+  font-weight: bolder;
+  -webkit-text-stroke: thin;
+}
+
+.subTextTitle {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.iconRange {
+  width: 24px;
+  height: 24px;
+  opacity: 0.5;
+}
+
+.iconTruckRange {
+  width: 24px;
+  height: 24px;
+  opacity: 0.7;
+}
+
+input[type="checkbox"] {
+  /* styles for the unchecked checkbox */
+  /* Example styles */
+  width: 17px;
+  height: 17px;
+}
+
+input[type="checkbox"]:checked {
+  /* styles for the checked checkbox */
+  accent-color: rgb(239, 82, 56);
+  /* change to your desired background color */
+}
+
+.checkbox1 {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+
+  .home,
+  .reports,
+  .products {
+    /* display: flex; */
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 3rem; */
+    margin-left: 3%;
+    margin-top: 18px;
+    overflow: auto;
+  }
+
+  input[type="checkbox"] {
+    width: 9px;
+    height: 14px;
+  }
+}
+
+@media screen and (max-device-width:768px) {
+
+  .iconTruckRange {
+    width: 17px;
+    height: 24px;
+    opacity: 0.7;
+  }
+  .iconRange {
+    width: 17px;
+    height: 24px;
+    opacity: 0.5;
+  }
+}
